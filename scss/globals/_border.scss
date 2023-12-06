@@ -1,0 +1,64 @@
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* This makes sure the image takes the full height of the parent div */
+
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+.border-radius-8px {
+  border-radius: 8px;
+}
+
+.border-color-fff {
+  border-color: #ffffff;
+}
+
+.border-1px {
+  border: 1px solid;
+  overflow: hidden; /* Ensure content inside the container is clipped to the rounded shape */
+}
+
+.centered-image-border {
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+  border: 1px solid #FFF; /* White border, adjust thickness as needed */
+  border-radius: 8px;
+  margin: auto; /* Centers the div itself if it's not full width */
+  width: fit-content; /* Adjusts the width to fit the content (the image) */
+  overflow: hidden;
+}
+
+
+
+.centered-image-border img {
+  max-width: 1500px; /* Maximum image width for large screens */
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+@media (max-width: 1200px) {
+  .centered-image-border img {
+      max-width: 900px; /* Adjust the maximum width for medium screens */
+  }
+}
+@media (max-width: 768px) {
+  .centered-image-border img {
+      max-width: 500px; /* Adjust the maximum width for medium screens */
+  }
+}
+
+/* For smaller screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+  .centered-image-border img {
+      max-width: 300px; /* Adjust the maximum width for smaller screens */
+  }
+}

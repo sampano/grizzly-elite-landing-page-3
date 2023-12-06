@@ -1,0 +1,15 @@
+.slick-next:before {
+  padding-left: 20px;
+}
+
+.slick-prev:before {
+  padding-right: 20px;
+}
+.slick-prev {
+  left: -55px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px !important;
+  color: #f47b20;
+}

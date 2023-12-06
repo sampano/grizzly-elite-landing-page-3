@@ -1,0 +1,25 @@
+.landingaccess {
+  position: relative;
+  .rectangle-01 {
+    position: absolute;
+    bottom: -17%;
+    right: 0;
+  }
+  .rectangle-02 {
+    position: absolute;
+    bottom: -19%;
+    right: 0;
+    z-index: 2;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .landingaccess {
+    .rectangle-01 {
+      display: none;
+    }
+    .rectangle-02 {
+      display: none;
+    }
+  }
+}

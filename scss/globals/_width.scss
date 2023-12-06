@@ -1,0 +1,135 @@
+.width_10 {
+  width: 10%;
+}
+.width_20 {
+  width: 20%;
+}
+.width_30 {
+  width: 30%;
+}
+.width_34 {
+  width: 34%;
+}
+.width_40 {
+  width: 40%;
+}
+.width_50 {
+  width: 50%;
+}
+.width_60 {
+  width: 60%;
+}
+.width_70 {
+  width: 70%;
+}
+.width_80 {
+  width: 80%;
+}
+
+.width_90 {
+  width: 90%;
+}
+
+.width_100 {
+  width: 100%;
+}
+
+.width_130 {
+  width: 130%;
+}
+
+.width_150 {
+  width: 150%;
+}
+
+.width_495 {
+  width: 495px;
+}
+
+.width_253 {
+  width: 253px;
+}
+
+.width_270 {
+  width: 270px;
+}
+
+.width_1670 {
+  width: 1670px;
+}
+
+/* ===================================== TABLET WIDTH ===================================== */
+@media only screen and (max-width: 1024px) {
+  .t-width_10 {
+    width: 10%;
+  }
+  .t-width_20 {
+    width: 20%;
+  }
+  .t-width_30 {
+    width: 30%;
+  }
+  .t-width_40 {
+    width: 40%;
+  }
+  .t-width_50 {
+    width: 50%;
+  }
+  .t-width_70 {
+    width: 70%;
+  }
+  .t-width_80 {
+    width: 80%;
+  }
+
+  .t-width_90 {
+    width: 90%;
+  }
+
+  .t-width_100 {
+    width: 100%;
+  }
+}
+
+/* ===================================== MOBILE WIDTH ===================================== */
+@media only screen and (max-width: 480px) {
+  .m-width_10 {
+    width: 10%;
+  }
+  .m-width_20 {
+    width: 20%;
+  }
+  .m-width_30 {
+    width: 30%;
+  }
+  .m-width_40 {
+    width: 40%;
+  }
+  .m-width_50 {
+    width: 50%;
+  }
+  .m-width_70 {
+    width: 70%;
+  }
+  .m-width_80 {
+    width: 80%;
+  }
+
+  .m-width_90 {
+    width: 90%;
+  }
+
+  .m-width_100 {
+    width: 100%;
+  }
+}
+
+.cover {
+  min-height: 100vh;
+}
+
+@media (max-width: 576px) {
+  .cover {
+    min-height: 70vh;
+  }
+}

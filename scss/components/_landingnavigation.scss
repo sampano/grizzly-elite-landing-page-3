@@ -1,0 +1,102 @@
+.landingheader {
+  // background-image: url(../media/img/background-image.png);
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // min-height: 1200px;
+  background-color: #0a0a0a;
+  position: relative;
+  .rectangle-first {
+    position: absolute;
+    bottom: 11%;
+  }
+  .rectangle-second {
+    position: absolute;
+    right: 3%;
+    bottom: -1%;
+  }
+  .sub-header.sticky {
+    visibility: visible;
+    opacity: 1;
+  }
+  .sub-header {
+    visibility: hidden;
+    opacity: 0;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    transition: 0.3s ease-in-out;
+    background-color: #690203;
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    .header_contact {
+      min-width: 175px;
+      background-position-x: 150px;
+      a {
+        background-image: url(../media/icons/red-phone_icon.png);
+        background-repeat: no-repeat;
+        background-size: 26px;
+        padding-left: 40px;
+      }
+    }
+  }
+  .nav {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 88px;
+    .contact-number {
+      background-image: url(../media/icons/red-phone_icon.png);
+      background-repeat: no-repeat;
+      background-size: 32px;
+      min-width: 175px;
+    }
+    .menu {
+      min-width: 175px;
+    }
+  }
+
+  .review {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    .stars {
+      padding-top: 3px;
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .nav {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .landingheader {
+    .sub-header {
+      padding: 20px 20px;
+      flex-direction: column;
+      height: auto;
+      gap: 10px;
+    }
+  }
+}

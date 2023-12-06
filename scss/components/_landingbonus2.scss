@@ -1,0 +1,12 @@
+.landingbonus2 {
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  background-image: url(../media/img/background-image-02.png);
+  background-repeat: no-repeat;
+  background-position: 5px -40px;
+  position: relative;
+  .rectangle-01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

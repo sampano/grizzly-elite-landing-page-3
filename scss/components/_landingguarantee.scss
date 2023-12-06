@@ -1,0 +1,33 @@
+.landingguarantee {
+  clip-path: polygon(0 0, 100% 230px, 100% 100%, 0 100%);
+  background-image: url(../media/img/background-image-02.png);
+  background-repeat: no-repeat;
+  background-position: left top -46px;
+
+  .guarantee-card_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+  .guarantee-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    // flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .landingguarantee {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    .guarantee-card {
+      flex-wrap: wrap;
+      .guarantee-card_container {
+        width: 100%;
+      }
+    }
+  }
+}

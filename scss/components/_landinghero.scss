@@ -1,0 +1,61 @@
+.landinghero {
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 75%);
+  // background-image: url(../media/img/background-image-03.png);
+  // background-repeat: no-repeat;
+  // background-position: right bottom;
+  height: 100vh;
+  position: relative;
+  background-color: #0a0a0a;
+  .landinghero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    .landinghero-card {
+      .hero_img {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  .rectangle-02 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .landinghero {
+    padding-bottom: 200px;
+    height: auto;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+    .landinghero-container {
+      flex-wrap: wrap;
+      .landinghero-card {
+        .hero_img {
+          position: static;
+          transform: translate(0, 0);
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .landinghero {
+    height: auto;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+    .landinghero-container {
+      flex-wrap: wrap;
+      .landinghero-card {
+        .hero_img {
+          position: static;
+          transform: translate(0, 0);
+        }
+      }
+    }
+  }
+}

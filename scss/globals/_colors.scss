@@ -1,0 +1,63 @@
+:root {
+  --bg-color-primary: #000000;
+  --bg-color-secondary: #b21b20;
+  --text-color-primary: #f47b20;
+  --text-color-secondary: #fff;
+  --bg-color-orange: #d73a1b;
+}
+
+.bg-color-dark-red {
+  background-color: #660e0e;
+}
+
+.font-color_orange {
+  color: var(--text-color-primary);
+}
+
+.font-color_true-orange {
+  color: var(--bg-color-orange);
+}
+
+.font-color_white {
+  color: var(--text-color-secondary);
+}
+
+.font-color_black {
+  color: var(--bg-color-primary);
+}
+
+.font-color_red {
+  color: var(--bg-color-secondary);
+}
+
+.font-color_linear {
+  background: linear-gradient(
+    to right,
+    #ee3524,
+    #f04b21,
+    #f25c1f,
+    #f36c1e,
+    #f47b20
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.bg-color_primary {
+  background-color: var(--bg-color-primary);
+}
+
+.bg-color_secondary {
+  background-color: var(--bg-color-secondary);
+}
+
+.bg-color_orange {
+  background-color: var(--bg-color-orange);
+}
+
+.bg-color_glass {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bg-color_gray {
+  background-color: #1a1a1a;
+}

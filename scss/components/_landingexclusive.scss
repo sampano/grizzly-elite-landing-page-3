@@ -1,0 +1,43 @@
+.landingexclusive {
+  position: relative;
+  .exclusive-container {
+    .exclusive-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin: 0 auto;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      margin-bottom: 50px;
+      padding: 40px;
+      border-radius: 8px;
+    }
+  }
+  .rectangle-01 {
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    z-index: 2;
+  }
+  .rectangle-02 {
+    position: absolute;
+    bottom: -7%;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .landingexclusive {
+    .exclusive-container {
+      .exclusive-card {
+        flex-wrap: wrap;
+      }
+    }
+    .rectangle-01 {
+      display: none;
+    }
+    .rectangle-02 {
+      display: none;
+    }
+  }
+}

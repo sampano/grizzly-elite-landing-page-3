@@ -4,12 +4,12 @@
   background-repeat: no-repeat;
   background-position: left top -46px;
 
-  .guarantee-card_container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 50px;
-  }
+  // .guarantee-card_container {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: flex-start;
+  //   gap: 50px;
+  // }
 
   .guarantee-card-container {
     display: flex;
@@ -17,6 +17,9 @@
     align-items: flex-start;
     // flex-wrap: wrap;
     gap: 20px;
+    .image-container {
+      min-height: 153px;
+    }
   }
 }
 

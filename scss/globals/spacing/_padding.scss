@@ -492,6 +492,14 @@
 
 // ===================== PADDING TABLET ===================
 @media only screen and (max-width: 1024px) {
+  .t-pt-0 {
+    padding-top: 0px;
+  }
+
+  .t-pt-5 {
+    padding-top: 5px;
+  }
+
   .t-pt-10 {
     padding-top: 10px;
   }
@@ -610,6 +618,10 @@
 
   .t-pt-300 {
     padding-top: 300px;
+  }
+
+  .t-pb-0 {
+    padding-bottom: 0px;
   }
 
   .t-pb-5 {
@@ -1001,8 +1013,8 @@
   }
 }
 
-// ===================== MOBILE TABLET ===================
-@media only screen and (max-width: 480px) {
+// ===================== MOBILE  ===================
+@media only screen and (max-width: 576px) {
   .m-pt-0 {
     padding-top: 0px;
   }

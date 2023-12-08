@@ -23,7 +23,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
   .landingguarantee {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     .guarantee-card {
@@ -31,6 +31,10 @@
       .guarantee-card_container {
         width: 100%;
       }
+    }
+    .testimonial-container {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }

@@ -54,7 +54,27 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 990px) {
+  .schools {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    .school {
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+      align-self: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .schools {
+    display: grid !important;
+    /* grid-template-columns: 1fr 1fr !important; */
+  }
+}
+
+@media only screen and (max-width: 576px) {
   .landingsteps {
     .rectangle-01 {
       display: none;
@@ -65,13 +85,18 @@
     .rectangle-03 {
       display: none;
     }
+    // .schools {
+    //   flex-wrap: wrap;
+    //   .school {
+    //     width: 100%;
+    //     padding: 10px;
+    //     text-align: center;
+    //   }
+    // }
+
     .schools {
-      flex-wrap: wrap;
-      .school {
-        width: 100%;
-        padding: 10px;
-        text-align: center;
-      }
+      display: grid !important;
+      grid-template-columns: 1fr !important;
     }
 
     .star_arrow {

@@ -59,6 +59,12 @@
   position: relative; /* Enable positioning for the icon */
 }
 
+@media only screen and (max-width: 576px) {
+  .link-with-icon {
+    line-height: 30px;
+  }
+}
+
 .blue-underline {
   text-decoration: underline; /* Underline the specified part of the text */
   color: #007bff; /* Set the text color to blue (you can change it as needed) */
